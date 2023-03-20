@@ -1,0 +1,144 @@
+body{
+    background: #111827;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title{
+    color: white;
+    font-size: 64px;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+
+
+.login{
+    width: 480px;
+    height: 476px;
+    border-radius: 4px;
+    background: #F9F9FB;
+}
+
+.title-login{
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    width: 320px;
+    height: 48px;
+    border-radius: 4px;
+    background: rgba(113, 128, 185, 0.32);
+
+    background-image: url(../img/EnvelopeSimple.png);
+    background-repeat: no-repeat;
+    color: #7C7C89;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    background-position: 10px;
+    padding: 0 2.4rem;
+    border: 2px solid transparent;
+}
+
+.senha{
+    width: 320px;
+    height: 48px;
+    border-radius: 4px;
+    background: rgba(113, 128, 185, 0.32);
+    border: 2px solid transparent;
+
+    background-image: url(../img/Lock.png);
+    background-repeat: no-repeat;
+    color: #7C7C89;
+    font-weight: 400;
+    font-size: 14px;  
+    border: none;
+    background-position: 10px;
+    padding: 0 2.4rem;
+}
+
+.hr{
+    color: #7180B9;
+}
+
+.login-botton{
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    background: rgba(113, 128, 185, 0.32);
+
+    background-image: url(../img/Lock.png);
+    background-repeat: no-repeat;
+    background: #7180B9;
+    color: black;
+    font-weight: 600;
+    font-size: 16px; 
+    border: none;
+    font-weight: bold;
+}
+
+.hr{
+    width: 124px;
+    height: 0px;
+}
+
+.flogin{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button-github{
+    background: #7180B9;
+    border-radius: 4px;
+    width: 244px;
+    height: 48px;
+    border: none;
+
+    background-image: url(../img/GithubLogo.png);
+    background-repeat: no-repeat;
+   background-position: 50px 3px;
+    font-weight: 600;   
+    font-size: 16px;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.fim-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+}
+
+.spanEmail{
+    color: green;
+    font-size: 14px;
+    margin-right: 15rem;
+    margin-top: 0;
+}
+
+.spanSenha{
+    color: green;
+    font-size: 14px;
+    margin-right: 11.7rem;
+    margin-top: 0;
+}
+
+
+
